@@ -30,7 +30,7 @@ Agentic Resume Matcher is an AI-powered tool that intelligently matches candidat
 ```
 📦 Agentic_HR
 ├── main.py              # Main Streamlit app
-├── resume_reader.py     # Extracts text from resumes
+├── resume_parser.py     # Extracts text from resumes
 ├── jd_analyzer.py       # Extracts key info from job descriptions using Groq
 ├── matcher.py           # Compares resumes and job info, assigns match scores
 ├── requirements.txt     # Python dependencies
