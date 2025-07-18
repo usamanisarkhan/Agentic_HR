@@ -21,7 +21,7 @@ Agentic Resume Matcher is an AI-powered tool that intelligently matches candidat
 - **Streamlit** – for web UI
 - **Groq API** – for fast and affordable LLM inference (Mistral model)
 - **PyMuPDF / pdfminer** – for PDF parsing
-- **LangChain (Optional)** – for agent-like processing logic
+- **LangChain** – for agent-like processing logic
 
 ---
 
@@ -67,7 +67,7 @@ streamlit run main.py
 
 ---
 
-## ☁️ Deploy on Hugging Face (Optional)
+## ☁️ Deploy on Hugging Face
 
 1. Upload your repo to Hugging Face Spaces.
 2. In `README.md`, add:
@@ -79,21 +79,12 @@ app_file: main.py
 
 ---
 
-## 📌 Example Use Cases
+ Use Cases
 
 - HR recruiters shortlisting candidates faster
 - Automated resume screening for large hiring rounds
 - Candidate-job matching in freelancing platforms
 
----
-
-## 🙌 Acknowledgements
-
-- [Groq](https://console.groq.com/)
-- [Streamlit](https://streamlit.io/)
-- [LangChain](https://www.langchain.com/)
-
----
 
 ## 📃 License
 
